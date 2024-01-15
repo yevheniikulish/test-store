@@ -1,0 +1,26 @@
+[2024-01-14 10:42:07,276] INFO [products.IndexView:16] index_view started loading
+[2024-01-14 10:42:07,282] INFO [products.IndexView:19] index_view loaded
+[2024-01-14 10:42:07,283] INFO [products.ProductsListView:23] product_list_view started loading
+[2024-01-14 10:42:07,283] INFO [products.ProductsListView:45] product_list_view loaded
+[2024-01-14 10:42:07,295] INFO [products.<module>:12] message from root urls
+[2024-01-14 10:43:44,137] INFO [products.IndexView:16] index_view started loading
+[2024-01-14 10:43:44,138] INFO [products.IndexView:19] index_view loaded
+[2024-01-14 10:43:44,138] INFO [products.ProductsListView:23] product_list_view started loading
+[2024-01-14 10:43:44,138] INFO [products.ProductsListView:45] product_list_view loaded
+[2024-01-14 10:43:44,139] INFO [products.<module>:12] message from root urls
+[2024-01-14 17:10:17,645] INFO [products.IndexView:16] index_view started loading
+[2024-01-14 17:10:17,647] INFO [products.IndexView:19] index_view loaded
+[2024-01-14 17:10:17,647] INFO [products.ProductsListView:23] product_list_view started loading
+[2024-01-14 17:10:17,647] INFO [products.ProductsListView:45] product_list_view loaded
+[2024-01-14 17:10:17,648] INFO [products.<module>:12] message from root urls
+[2024-01-15 07:32:05,453] INFO [products.<module>:12] message from root urls
+[2024-01-15 07:46:24,845] INFO [products.<module>:12] message from root urls
+[2024-01-15 07:48:43,690] INFO [products.<module>:12] message from root urls
+[2024-01-15 07:49:25,224] INFO [products.<module>:12] message from root urls
+[2024-01-15 07:50:03,384] INFO [products.<module>:12] message from root urls
+[2024-01-15 07:50:09,001] INFO [products.<module>:12] message from root urls
+[2024-01-15 07:51:03,201] INFO [products.<module>:12] message from root urls
+[2024-01-15 15:19:55,014] INFO [products.User:16] User model
+[2024-01-15 15:19:56,494] INFO [products.User:16] User model
+[2024-01-15 15:19:56,602] INFO [products.UserLoginView:18] user_login_view sterted loading
+[2024-01-15 15:19:56,603] INFO [products.UserLoginView:22] user_login_view loaded
