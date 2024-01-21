@@ -25,12 +25,6 @@ class ProductsListView(TitleMixin, ListView):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(ProductsListView, self).get_context_data()
-        # categories = cache.get('categories')
-        # if not categories:
-        #     context['categories'] = ProductCategory.objects.all()
-        #     cache.set('categories', context['categories'], 30)
-        # else:
-        #     context['categories'] = categories
         context['categories'] = ProductCategory.objects.all()
         return context
 
