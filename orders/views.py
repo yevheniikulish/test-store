@@ -58,9 +58,9 @@ class OrderCreateView(TitleMixin, CreateView):
         super(OrderCreateView, self).post(request, *args, **kwargs)
         basket = Basket.objects.filter(user=self.request.user)
         checkout_session = stripe.checkout.Session.create(
-            line_items=list(basket.stripe_products()),
+            line_items=basket.stripe_products(),
             metadata={'order_id': self.object.id},
-            mode='subscription',
+            mode='payment',
             success_url='{}{}'.format(settings.DOMAIN_NAME, reverse('orders:order_success')),
             cancel_url='{}{}'.format(settings.DOMAIN_NAME, reverse('orders:order_cancel')),
         )
@@ -97,7 +97,6 @@ def stripe_webhook_view(request):
         )
 
         fulfill_order(session)
-
     return HttpResponse(status=200)
 
 
