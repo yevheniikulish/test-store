@@ -10,5 +10,4 @@ I used Python, Django 3, PostgreSQL, Redis, Celery to create
 this site.
 
 
-!WARNING! This site doesn't protected
-[DEMO LINK](http://45.81.225.18)
+[DEMO LINK](https://django-store.space)
